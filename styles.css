@@ -30,3 +30,7 @@ button:focus {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.fa-clipboard {
+  cursor: pointer;
+}
