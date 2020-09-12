@@ -4,6 +4,7 @@ let eight = document.querySelector("#eight");
 let ten = document.querySelector("#ten");
 let twelve = document.querySelector("#twelve");
 let fourteen = document.querySelector("#fourteen");
+let copy = document.querySelector(".fa-clipboard");
 
 const characters = [
   "a",
@@ -74,6 +75,8 @@ button.addEventListener("click", () => {
   } else if (fourteen.checked === true) {
     newPassword = newPassword.slice(0, 14);
   } else newPassword = newPassword.slice(0, 6);
+
+  copy.style.display = "block";
 
   password.innerHTML = newPassword.join(" ");
 });

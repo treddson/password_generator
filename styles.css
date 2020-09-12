@@ -33,4 +33,5 @@ button:focus {
 
 .fa-clipboard {
   cursor: pointer;
+  display: none;
 }
